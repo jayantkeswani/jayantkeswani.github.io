@@ -106,7 +106,7 @@ p{
     margin: -50px 0 0 -50px;
     position: absolute;
     top: 50%;
-	color:#1fb4da;
+	color: #1fb4da;
 	font-size:25px;
 
 }
@@ -134,7 +134,10 @@ p{
 }
 
 
-
+#j{
+    color:#1fcbc8;
+    text-decoration: none;
+}
 
 /*Wrapper*/
 #wrapper{
@@ -149,18 +152,21 @@ p{
     width:960px;
 	padding-left:15px;
 	padding-right:15px;
+    /*padding-top: 25px;*/
 	margin:0 auto;
 	position:relative;
 }
 
-
+.j1{
+    padding-top: 25px;
+}
 
 /*Header*/
 
 header{
     //background:#2d2d2d;
     background: #ffffff;
-	position:fixed;
+    position:fixed;
 	width:100%;
 	top:0;
 	left:0;
@@ -332,8 +338,8 @@ nav#mainNav1 li {
 
 .secTitle {
     text-align: center;
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-top:25px;
+	padding-bottom:25px;
 	box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.22) inset;
 	-webkit-box-shadow:0 -1px 3px rgba(0, 0, 0, 0.22) inset;
 	-moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.22) inset;
@@ -355,7 +361,7 @@ nav#mainNav1 li {
 .secTitle h1 {
     color: #ffffff;
     display: inline-block;
-    font-size: 36px;
+    font-size: 30px;
     position: relative;
     text-transform: uppercase;
 }
@@ -392,12 +398,17 @@ nav#mainNav1 li {
 	color:#2d2d2d;
 }
 
+.innerTitle h2{
+    font-size: 18px;
+    color:#2d2d2d;
+}
+
 .innerTitle p{
     font-size: 14px;
 }
 
 .innerTitle a{
-    color: #48D1CC;
+    color: #afd275;
 }
 
 .column{
@@ -477,7 +488,7 @@ nav#mainNav1 li {
 }
 
 #about .secTitle{
-	background:#48D1CC;
+    background: #1fcbc8;
 }
 
 
@@ -501,7 +512,7 @@ nav#mainNav1 li {
 	margin:0 auto;
     zoom: 1;
     border-color: inherit;
-	
+
 }
 
 .imgProfile:before {
@@ -606,6 +617,7 @@ nav#mainNav1 li {
 
 .skills {
     margin-top: 30px;
+    margin-bottom: 30px;
 	width:520px;
 }
 
@@ -632,7 +644,7 @@ nav#mainNav1 li {
 
 
 .percentage {
-    background:#6AC8C8;
+    background: #1fcbc8;
     border-radius: 30px ;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
@@ -709,8 +721,8 @@ nav#mainNav1 li {
 
 .textWidget p{
 	
-   font-size: 14px;
-   line-height:22px;
+   font-size: 18px;
+   line-height:24px;
 
 }
 
@@ -830,7 +842,7 @@ nav#mainNav1 li {
 
 
 #resume .secTitle{
-	background: #4cf93a;
+    background: #ee9948;
 }
 
 
@@ -1035,7 +1047,7 @@ nav#mainNav1 li {
 
 
 #portfolio .secTitle{
-	background: #f7275b;
+	background: #E7717D;
 }
 
 .filterNav {
@@ -1304,7 +1316,7 @@ ul#category li a:hover{
 /*Contact*/
 
 #contact .secTitle{
-	background:#f97c39;
+    background: #afd275;
 }
 
 
